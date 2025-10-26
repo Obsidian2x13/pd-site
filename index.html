@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>PD – Linki i Zakładki</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Calibri,sans-serif;margin:2rem;line-height:1.4}
+    .card{border:1px solid #ccc;border-radius:12px;padding:1rem;margin:0 0 1rem 0;box-shadow:0 2px 6px rgba(0,0,0,.05)}
+    h1{margin:.2rem 0 1rem 0}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
+    a{text-decoration:none}
+    .tag{font-size:.8rem;opacity:.7}
+  </style>
+</head>
+<body>
+  <h1>PD – Linki i Zakładki</h1>
+  <p>Krótka strona z najważniejszymi linkami. Zmieniaj dowolnie. (Repo: <code>pd-site</code>)</p>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Panel lokalny – zdrowie</h3>
+      <p><a href="http://127.0.0.1:18389/sse/healthz">SSE /healthz (lokalnie)</a></p>
+      <p><a href="http://127.0.0.1:8899/stream-score">Stream-score (lokalnie)</a></p>
+      <p class="tag">Lokalne testy</p>
+    </div>
+
+    <div class="card">
+      <h3>Repozytoria</h3>
+      <p><a href="https://github.com/# === USTAW DANE KONTA I NAZWY REPO (interaktywnie) ===/pd-tools">pd-tools</a></p>
+      <p><a href="https://github.com/# === USTAW DANE KONTA I NAZWY REPO (interaktywnie) ===/pd-site">pd-site</a></p>
+      <p class="tag">GitHub</p>
+    </div>
+
+    <div class="card">
+      <h3>Dokumenty</h3>
+      <p><a href="#">Odzysk danych – One-pager (PDF)</a></p>
+      <p><a href="#">Instrukcje SSE</a></p>
+      <p class="tag">Materiały</p>
+    </div>
+  </div>
+
+  <footer style="margin-top:2rem;opacity:.7">
+    <small>Aktualizuj linki pod swoje środowisko. &middot; PD</small>
+  </footer>
+</body>
+</html>
